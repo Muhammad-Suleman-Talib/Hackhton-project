@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: white;
+    background: url('bac.png') center/cover no-repeat;
+  }
+  
+  .container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-container {
+    background-color: rgba(31, 55, 34, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .title {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.25rem;
+    background: -webkit-linear-gradient(left, #ee2b0d, #d42806);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    color: #19ff62;
+    font-size: 1rem;
+  }
+  
+  p {
+    color: #d1d5db;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  ul li {
+    font-size: 0.875rem;
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: #f63b5c;
+    text-decoration: none;
+  }
+  
+  button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #19ff62;
+    color: black;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #cbf802;
+  }
+  
+  /* Scroll-to-top button */
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #a855f7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+  }
+  
+  .scroll-to-top.show {
+    display: block; /* Show when required */
+  }
